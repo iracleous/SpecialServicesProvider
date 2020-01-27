@@ -10,8 +10,9 @@ public class Shop {
         this.customers = new ArrayList<>();
     }
 
-    public void addCustomer(Customer c){
+    public int addCustomer(Customer c){
         customers.add(c);
+        return customers.size();
     }
 
     public int getTotalRevenue(){

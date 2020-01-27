@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.5" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.codehub.startup.Employee">
+    <void property="name">
+     <string>Dimitris</string>
+    </void>
+    <void property="salary">
+     <double>800.6</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.codehub.startup.Employee">
+    <void property="name">
+     <string>Petros</string>
+    </void>
+    <void property="salary">
+     <double>1800.4</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
