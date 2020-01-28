@@ -35,11 +35,7 @@ public class Bank {
     }
 
     public String getAsJson(){
-
-
-
         JSONArray jsArray = new JSONArray(accountList);
-
         return jsArray.toString();
     }
 
@@ -52,6 +48,7 @@ public class Bank {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            return false;
         }
     return true;
     }
